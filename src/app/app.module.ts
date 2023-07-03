@@ -10,9 +10,11 @@ import { FiltersComponent } from './components/filters/filters.component';
 import { PersonalComponent } from './components/personal/personal.component';
 import { BoardComponent } from './components/board/board.component';
 import { CardComponent } from './components/card/card.component';
+import { SearchResultsComponent } from './search-results/search-results.component';
+import { SearchItemsComponent } from './components/search-items/search-items.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, SearchComponent, SortingComponent, FiltersComponent, PersonalComponent, BoardComponent, CardComponent],
+  declarations: [AppComponent, HeaderComponent, SearchComponent, SortingComponent, FiltersComponent, PersonalComponent, BoardComponent, CardComponent, SearchResultsComponent, SearchItemsComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
