@@ -9,6 +9,10 @@ import { FiltersComponent } from './components/filters/filters.component';
 import { PersonalComponent } from './components/personal/personal.component';
 import { SearchResultsComponent } from './components/search-results/search-results.component';
 import { SearchItemsComponent } from './components/search-items/search-items.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LogoComponent } from './components/logo/logo.component';
+import { MatButtonModule } from '@angular/material/button';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -20,8 +24,15 @@ import { SearchItemsComponent } from './components/search-items/search-items.com
     PersonalComponent,
     SearchResultsComponent,
     SearchItemsComponent,
+    LogoComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatInputModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
